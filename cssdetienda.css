@@ -1,0 +1,142 @@
+
+body{
+    background-color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0; 
+    padding: 0;
+    flex-direction: column;
+}
+#btnreg {
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+#btnreg a{
+    color: black;
+    text-decoration: none;
+}
+.imagenlogo img {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: cornsilk;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu div {
+    margin-right: 15px; /* Puedes ajustar el margen entre los elementos según tus preferencias */
+}
+
+.redes img {
+    text-align: center; 
+    width: 60px;
+    height: auto; 
+    margin:20px; 
+}
+a img:hover{
+   border: none;
+   transition: 0.9s;
+   transform: rotate(360deg) scale(2);
+}
+.producto {
+    border: 1px solid rgb(158, 158, 37);
+    padding: 5px;
+    margin: 10px;
+    width: calc(33.33% - 30px); /* Ajusta el ancho según el espacio disponible y el margen */
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.producto .descripcion {
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+input {
+    width: 30px;
+}
+.contenedor2{
+    width: 100%;
+    background-color: rgb(155, 95, 17);
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedor {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}/*
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}*/
+footer {
+    background-color: rgba(139, 0, 0, 0.301); /* Puedes cambiar el color de fondo según tus preferencias */
+    padding: 0px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0px; /* Ajusta el margen según tus preferencias */
+}
+
+.redes a {
+    margin-right: 10px; /* Ajusta el margen entre las imágenes según tus preferencias */
+}
+
+
+.carousel img {
+    max-height: 300px; /* Establece la altura máxima deseada */
+    width: auto; /* Permite que el ancho se ajuste automáticamente manteniendo las proporciones */
+    margin: auto; 
+}
+.carousel-inner {
+    display: flex;
+}
+.descripcion {
+    display: none;
+}
+.producto img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
